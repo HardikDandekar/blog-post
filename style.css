@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-container {
+    background-color: #fff;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog Header */
+.blog-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.blog-meta {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Featured Image */
+.featured-image img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Blog Content */
+.blog-content {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444;
+}
+
+.blog-content h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.blog-content p {
+    margin-bottom: 20px;
+}
+
+.blog-content .content-image {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.blog-content blockquote {
+    font-size: 1.2rem;
+    color: #555;
+    padding-left: 20px;
+    border-left: 4px solid #3a7bd5;
+    margin: 20px 0;
+    background-color: #f9f9ff;
+    padding: 10px;
+}
+
+/* List Styling */
+.blog-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Blog Footer */
+.blog-footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+}
+
+.blog-footer p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blog-header h1 {
+        font-size: 2rem;
+    }
+    
+    .blog-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .blog-content {
+        font-size: 1rem;
+    }
+}
